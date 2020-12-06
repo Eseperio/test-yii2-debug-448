@@ -45,7 +45,13 @@ return [
     ],
     'modules' => [
         'first' => [
-            'class' => \example\emulated\frontend\FrontendModule::class
+            'class' => \example\emulated\frontend\FrontendModule::class,
+            'modules' => [
+                'user' => [
+                    'class' => \Da\User\Module::class
+                ],
+            ]
+
         ]
     ],
     'params' => $params,
