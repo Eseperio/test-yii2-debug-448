@@ -17,7 +17,6 @@ class FrontendModule extends \yii\base\Module
                     'enableEmailConfirmation' => false,
                     'administratorPermissionName' => 'admin',
                     'enableGdprCompliance' => true,
-                    'administrators' => ['waizabu'],
                 ],
             ]
         ];
