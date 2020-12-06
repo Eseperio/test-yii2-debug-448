@@ -1,0 +1,13 @@
+{
+    "name": "example/emulated-library",
+    "description": "Some text here",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "example\\emulated\\": "./src/"
+        }
+    }
+
+}
