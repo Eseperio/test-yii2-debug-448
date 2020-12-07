@@ -48,8 +48,12 @@ return [
             'class' => \example\emulated\frontend\FrontendModule::class,
             'modules' => [
                 'user' => [
-                    'class' => \Da\User\Module::class
+                    'class' => \Da\User\Module::class,
+                    'controllerMap' => [
+                        'settings' => ['class' => \example\emulated\frontend\controllers\SettingsController::class]
+                    ]
                 ],
+
             ]
 
         ]

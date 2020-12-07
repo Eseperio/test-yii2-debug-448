@@ -13,7 +13,7 @@ namespace example\emulated\frontend\controllers;
 
 use Da\User\Controller\SettingsController as BaseSettingsController;
 
-class OtherController extends BaseSettingsController
+class SettingsController extends BaseSettingsController
 {
 
 
